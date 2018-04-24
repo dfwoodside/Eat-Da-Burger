@@ -33,4 +33,5 @@ app.use('/', router);
 // Open Server
 // ==========================================================================================
 var port = process.env.PORT || 3000;
+console.log('App listening on PORT ' + port);
 app.listen(port);
